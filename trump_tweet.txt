@@ -1,0 +1,15 @@
+Make Donald Trump Tweet Something For You.
+
+command example: /trump Testing Tweet
+
+Main Code is below👇
+
+$nomention
+$title[Donald Trump Tweeted]
+$image[https://api.no-api-key.com/api/v2/trump?message=$replaceText[$message; ;%20;-1]]
+$color[666]
+$argsCheck[>1;What you want to tweet by Donald Trump.]
+$footer[Requested by $username]
+$addTimestamp
+$botTyping
+$suppressErrors[Error Occurred; Please try again later.]
